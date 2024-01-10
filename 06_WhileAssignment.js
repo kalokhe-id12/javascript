@@ -13,18 +13,23 @@ while (i>=40) {
     i--;
 }
 
+console.log(`-----------print odd number 1 to 15 'Using while Loop'--------------`);
+var i=1;
+while (i<=30) {
+    console.log(i);
+    i=i+2;
+  }
 
-console.log(`-----------print odd number  to 15 'Using while Loop'--------------`);
+  console.log(`----------print even number 1 to 10'Using while Loop'-------------- `);
+  var i=0;
+  while (i<=18) {
+    console.log(i);
+    i=i+2;
+}
 
-printf ("\n%d",i);
-
-while (i<=15) {
-    
-    if ( index % 2==1) ;
-    {
-        printf ("\n%d",i);
-        odd++;
-    
-    }
-    i++;
+console.log(`-----------print tableof 5 'Using while Loop'------------------`);
+var i=5;
+while (i<=50){
+    console.log(i);
+    i=i+5;
 }
