@@ -1,5 +1,5 @@
 
-const fruits_seasonal =["Banana ","Orange","Apple", "Mango", "Water Melon"];
+const fruits_seasonal = ["Banana ","Orange","Apple", "Mango", "Water Melon"];
 
 console.log(`=====================step 1=================================`);
 
