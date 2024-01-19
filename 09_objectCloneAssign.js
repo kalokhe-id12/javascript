@@ -59,17 +59,19 @@ const rateOfIntrest1 ={
     personalLoanIntrest :7,
     dueIntrest:4.4
 }
+
 const mergeObj = Object.assign({}, banksbi1, bankLocation1, rateOfIntrest1);
-console.log(banksbi1);
-console.log(bankLocation1);
-console.log(rateOfIntrest1);
-console.log(mergeObj);
+console.table(banksbi1);
+console.table(bankLocation1);
+console.table(rateOfIntrest1);
+console.table(mergeObj);
 
 console.log(`-------------------------step 6--------------------------------------`);
 
-console.log(`Traverse the merged object`);
+console.log(`Traverse object`);
+
 for (const key in mergeObj) {
-    if (Object.hasOwnProperty.call(object, key)) {
+    if (Object.hasOwnProperty.call(mergeObj, key)) {
         const element = mergeObj[key];
 
         console.log(element);

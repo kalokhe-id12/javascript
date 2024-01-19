@@ -22,6 +22,7 @@ console.log(stew instanceof User);
 
 const elon = new Student(33, "Elon", 60);
 
+
 Student.prototype.country = "India";
 console.log(elon.name);
 console.log(elon.country);
