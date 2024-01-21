@@ -18,11 +18,13 @@ const emp_monika = new Employee  (77 ,"Monika", "IT", 40000 , "Wipro");
 const emp_vinay = new Employee (88, "Vinayak", "IT", 75000 , "TCS");
 const emp_mahi = new Employee (99 , "Mahesh", "HR", 85000, "Infy");
 
+const arrayEmployee = [emp_anil ,emp_radha, emp_rishi ,emp_sonali ,emp_monika,emp_vinay,emp_mahi];
+
 console.log(`-----------step 1-----------------`);
 
 arrayEmployee.forEach(emp => {
     if (emp.emp_company=="TCS") {
-        console.log(`employee name: ${emp.emp_name} , employee company: ${emp.emp_company} `  )
+        console.log(`employee name: ${emp.emp_name} , employee company: ${emp.emp_company} ,employee salary: ${emp.emp_salary} ` )
         
     }
     
@@ -51,6 +53,8 @@ const Average = arrayEmployee.reduce( (runningTotal,Element)=>{
 return runningTotal + Element.emp_salary/arrayEmployee.length;
 
 },0);
+
+console.log(`Average salary of employee => ${Average}`);
 
 console.log(`--------------------step 5-----------------------`);
 
