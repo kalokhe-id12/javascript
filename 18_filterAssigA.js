@@ -38,7 +38,7 @@ console.log(`---------------------------------step 2----------------------------
 
 const Employee1 = arrayEmployee.filter(person => person.emp_company === 'wipro');
 
-const average = Employee1.reduce( (total,next) => total + next.emp_salary, 0) /Employee1.length
+const average = Employee1.reduce( (total,next) => total + next.emp_salary, 0) /Employee1.length;
 console.log(`The average salary of employee from wipro company==> ${average}`);
 console.log(` `);
 
